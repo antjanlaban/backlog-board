@@ -1,0 +1,5 @@
+{
+  "tier": "prod",
+  "stack": "ts-default",
+  "labtech": "0.16.0"
+}

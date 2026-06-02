@@ -1,0 +1,21 @@
+{
+  "name": "backlog-board",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "biome check .",
+    "format": "biome format --write .",
+    "lint": "biome lint ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/bun": "latest",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.5"
+  }
+}

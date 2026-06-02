@@ -1,0 +1,42 @@
+# Tier-specifieke overrides per worktree (nooit committen)
+.claude/settings.local.json
+
+# Claude Code session files
+.claude/sessions/
+.claude/file-history/
+.claude/shell-snapshots/
+.claude/todos/
+
+# Worktrees (eigen filesystem-paden)
+.worktrees/
+
+# Node / Bun
+node_modules/
+dist/
+.turbo/
+*.tsbuildinfo
+bun.lockb
+
+# Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+bun-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# /auto run-state (ephemeer)
+.labtech-auto/
+
+# LabTech tooling-residu (geen onderdeel van een user-product)
+werkmap/
+.playwright-mcp/
