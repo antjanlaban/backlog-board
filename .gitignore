@@ -10,6 +10,9 @@
 # Worktrees (eigen filesystem-paden)
 .worktrees/
 
+# SQLite data
+data/
+
 # Node / Bun
 node_modules/
 dist/

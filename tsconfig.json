@@ -16,8 +16,8 @@
     "verbatimModuleSyntax": true,
     "resolveJsonModule": true,
     "noEmit": true,
-    "types": ["bun"]
+    "types": ["node"]
   },
   "include": ["src/**/*", "tests/**/*"],
-  "exclude": ["node_modules", "dist", ".worktrees"]
+  "exclude": ["node_modules", "dist", ".worktrees", "src/client"]
 }
